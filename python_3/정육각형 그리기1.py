@@ -1,0 +1,15 @@
+import turtle
+t = turtle.Turtle()
+t.setheading(60)
+t.forward(100)
+t.setheading(120)
+t.forward(100)
+t.setheading(180)
+t.forward(100)
+t.setheading(240)
+t.forward(100)
+t.setheading(300)
+t.forward(100)
+t.home()
+
+turtle.done()
