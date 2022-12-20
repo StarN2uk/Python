@@ -1,0 +1,21 @@
+turtle
+
+t.setx = x좌표를 이동시킨다.
+t.sety = y좌표를 이동시킨다.
+t.goto = x, y좌표를 이동시킨다. 예 -> t.goto(x, y)
+t.setheading = 각도를 맞출 수 있다. 예 -> t.setheading(120) #180 - 120 = 60도
+t.forward = 방향의 앞으로 간다.
+backward = 거북이 머리 반대 방향을 이동한다.
+left = 왼쪽으로 회전
+right = 오른쪽으로 회전
+speed = 거북이의 속도를 조절한다.
+pencolor = 도형의 선색을 조절한다.
+penup = 펜을 든다. -> 그리지 않는다.
+pendown = 펜을 내린다. -> 그린다.
+turtle.addshape = 원하는 그림을 추가한다. 경고! 그림 형식은 언제나 gif 여야 한다.
+shape = 새롭게 등록된 그림으로 터틀 모양을 바꾼다.
+pen(pensize, pencolor, speed) = 펜의 상태를 괄호 안에 나열하여 설정할 수 있다.
+stamp = 도장을 찍듯이 거북이 모양을 현재 위치에 남긴다.
+undo = 마지막으로 실행한 명령을 취소한다.
+clearstamp = 특정 도장을 삭제한다.
+dot = 현재 위치에 점을 남긴다.
