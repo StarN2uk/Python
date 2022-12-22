@@ -1,0 +1,16 @@
+import turtle
+t = turtle.Turtle()
+t.shape = ("turtle")
+n = int(input("집의 크기를 입력하세요 : "))
+t.forward(n)
+t.setheading(270)
+t.forward(n)
+t.setheading(180)
+t.forward(n)
+t.setheading(90)
+t.forward(n)
+t.setheading(60)
+t.forward(n)
+t.setheading(300)
+t.forward(n)
+t.home

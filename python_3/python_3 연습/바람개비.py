@@ -1,0 +1,15 @@
+import turtle
+t = turtle.Turtle()
+t.goto(200, 0)
+t.goto(200, -40)
+t.home()
+t.goto(0, 200)
+t.goto(40, 200)
+t.home()
+t.goto(-200, 0)
+t.goto(-200, 40)
+t.home()
+t.goto(0, -200)
+t.goto(-40, -200)
+t.home()
+turtle.done
