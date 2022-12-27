@@ -1,0 +1,8 @@
+거북이 달리기 대회 with "Visual Studio code"
+
+random 으로 게임을 재미있게 만듭니다.
+t = turtle.Turtle -> turtle을 여러 개를 만들 수 있다
+import random -> random 모듈을 사용하기 위해 불러온다.
+예) -> 1. import random, 2. import random as rd, 3. from random import *
+random() -> 랜덤을 쓰는 방법
+randint(a, b) -> 괄호 안에 있는 a ~ b 까지의 수 중에서 랜덤으로 한 가지를 가져온다.
