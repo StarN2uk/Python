@@ -1,0 +1,12 @@
+a = int(input("x1: "))
+b = int(input("y1: "))
+c = int(input("x2: "))
+d = int(input("y2: "))
+e = int(input("x3: "))
+f = int(input("y3: "))
+import turtle
+t = turtle.Turtle()
+t.goto(a, b)
+t.goto(c, d)
+t.goto(e, f)
+turtle.done()
